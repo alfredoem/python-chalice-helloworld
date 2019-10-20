@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "resources": [
+    {
+      "role_name": "python-chalice-helloworld-dev",
+      "role_arn": "arn:aws:iam::929226109038:role/python-chalice-helloworld-dev",
+      "name": "default-role",
+      "resource_type": "iam_role"
+    },
+    {
+      "lambda_arn": "arn:aws:lambda:ap-northeast-1:929226109038:function:python-chalice-helloworld-dev",
+      "name": "api_handler",
+      "resource_type": "lambda_function"
+    },
+    {
+      "name": "rest_api",
+      "rest_api_id": "cry3ju777j",
+      "rest_api_url": "https://cry3ju777j.execute-api.ap-northeast-1.amazonaws.com/api/",
+      "resource_type": "rest_api"
+    }
+  ],
+  "backend": "api"
+}
